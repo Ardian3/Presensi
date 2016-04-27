@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_app"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Register System"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:shadowColor="#000000"
+        android:textSize="@dimen/abc_floating_window_z"
+        android:layout_marginTop="15pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Presensi Android"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#efeeee" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Masukan Nomor NIP Anda"
+        android:id="@+id/textView3"
+        android:layout_marginLeft="5pt"
+        android:layout_marginTop="50pt"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txNIP"
+        android:layout_marginLeft="5pt"
+        android:layout_marginTop="3pt"
+        android:layout_marginRight="5pt"
+        android:layout_marginBottom="3pt"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:background="#ffffff"
+        android:layout_weight="0.09"
+        android:elegantTextHeight="false"
+        android:paddingLeft="10pt"
+        android:paddingRight="10pt" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan NIP"
+        android:id="@+id/btnSetNip"
+        android:layout_gravity="right"
+        android:layout_margin="5pt" />
+</LinearLayout>
